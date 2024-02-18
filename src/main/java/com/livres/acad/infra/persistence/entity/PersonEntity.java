@@ -1,4 +1,4 @@
-package com.livres.acad.infra.persistence;
+package com.livres.acad.infra.persistence.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;

@@ -1,7 +1,7 @@
 package com.livres.acad.infra.mappers;
 
 import com.livres.acad.domain.entity.Person;
-import com.livres.acad.infra.persistence.PersonEntity;
+import com.livres.acad.infra.persistence.entity.PersonEntity;
 
 public class PersonMapper {
 
