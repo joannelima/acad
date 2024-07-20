@@ -12,6 +12,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
@@ -26,7 +27,7 @@ public class PersonEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
-    private Date birthday;
+    private LocalDate birthday;
     private String password;
 
     @OneToMany(mappedBy = "evaluator", fetch = FetchType.LAZY)
