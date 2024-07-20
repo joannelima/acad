@@ -13,11 +13,6 @@ public class PersonTest {
     }
 
     @Test
-    public void shouldReturnExceptionWhenBirthdayIsInvalid(){
-
-    }
-
-    @Test
     public void shouldReturnPersonWithSucessTest(){
         Person person = new Person("Jose", LocalDate.of(2010, 10, 12), "23232");
         Assertions.assertEquals("Jose", person.name);
